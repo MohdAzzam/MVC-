@@ -1,10 +1,14 @@
 {
+    "name": "Mohammad-Azzam/MVC",
+    "description": "micro mvc",
+
     "autoload": {
         "psr-4": {
             "MVC\\": "app"
         }
     },
     "require": {
+        "php": "^7.2",
         "dcblogdev/pdo-wrapper": "^2.0",
         "rakit/validation": "^1.4"
     }
